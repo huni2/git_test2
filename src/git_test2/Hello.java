@@ -5,8 +5,8 @@ public class Hello {
 	public Hello() {
 		this("안녕하세요");
 		}
-	public Hello(String message) {
-		this.message = message;
+	public Hello(String messages) {
+		this.message = messages;
 		}
 	public void say() {
 		System.out.println(message);
